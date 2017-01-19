@@ -1,0 +1,21 @@
+{
+  "name": "fcc-mat-url-shortener",
+  "version": "1.0.0",
+  "description": "A little url shortener for FCC.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/Capevace/fcc-url-shortener-microservice",
+    "type": "git"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Lukas von Mateffy (@Capevace)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pg": "^6.1.2",
+    "sequelize": "^3.29.0",
+    "shorthash": "^0.0.2"
+  }
+}
